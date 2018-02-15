@@ -1,6 +1,6 @@
 * {box-sizing:border-box}
-$font:(font-family: 'Alegreya Sans SC', sans-serif;
-color: dimgray;)
+$font:(font-family: 'Alegreya Sans SC',
+color: dimgray);
 
 body, html {
   height: 100%;
@@ -9,7 +9,6 @@ body, html {
   align-items:center;
   justify-content: space-between;
   background-image: url("../background.jpg");
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,52 +53,3 @@ body, html {
 
  h2 {text-indent: 50px;
  }
-
-
-//
-//.tabs {
-//  position: relative;
-//  min-height: 200px; /* This part sucks */
-//  clear: both;
-//  margin: 25px 0;
-//  $font;
-//}
-//.tab {
-//  float: left;
-//  $font;
-//}
-//.tab label {
-//  background: #eee;
-//  padding: 10px;
-//  border: 1px solid #ccc;
-//  margin-left: -1px;
-//  position: relative;
-//  left: 1px;
-//  $font;
-//}
-//.tab [type=radio] {
-//  display: none;
-//}
-//.content {
-//  position: absolute;
-//  $font;
-//  top: 28px;
-//  left: 0;
-//  background: white;
-//  right: 0;
-//  bottom: 0;
-//  padding: 20px;
-//  border: 1px solid #ccc;
-//}
-//[type=radio]:checked ~ label {
-//  background: white;
-//  border-bottom: 1px solid white;
-//  z-index: 2;
-//  $font;
-//}
-//[type=radio]:checked ~ label ~ .content {
-//  z-index: 1;
-//  $font;
-//}
-
-
