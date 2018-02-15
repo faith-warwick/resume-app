@@ -1,0 +1,105 @@
+* {box-sizing:border-box}
+$font:(font-family: 'Alegreya Sans SC', sans-serif;
+color: dimgray;)
+
+body, html {
+  height: 100%;
+  display:flex;
+  flex-flow: column nowrap;
+  align-items:center;
+  justify-content: space-between;
+  background-image: url("../background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.resume-image {
+  border-radius: 75%;
+  max-width: 170px;
+  margin-bottom: 30px;
+  padding:16px;
+}
+
+.name {
+    background: white;
+    $font;
+    font-size: 90px;
+  width: 800px;
+  display: flex;
+  align-items:center;
+  justify-content: Stretch;
+  margin:16px;
+  }
+
+.IDs{
+  background:white;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin:16px;
+}
+
+  .contents{
+    background: white;
+    $font;
+    width: 800px;
+    margin:16px;
+    padding: 16px;
+  }
+
+ h2 {text-indent: 50px;
+ }
+
+
+//
+//.tabs {
+//  position: relative;
+//  min-height: 200px; /* This part sucks */
+//  clear: both;
+//  margin: 25px 0;
+//  $font;
+//}
+//.tab {
+//  float: left;
+//  $font;
+//}
+//.tab label {
+//  background: #eee;
+//  padding: 10px;
+//  border: 1px solid #ccc;
+//  margin-left: -1px;
+//  position: relative;
+//  left: 1px;
+//  $font;
+//}
+//.tab [type=radio] {
+//  display: none;
+//}
+//.content {
+//  position: absolute;
+//  $font;
+//  top: 28px;
+//  left: 0;
+//  background: white;
+//  right: 0;
+//  bottom: 0;
+//  padding: 20px;
+//  border: 1px solid #ccc;
+//}
+//[type=radio]:checked ~ label {
+//  background: white;
+//  border-bottom: 1px solid white;
+//  z-index: 2;
+//  $font;
+//}
+//[type=radio]:checked ~ label ~ .content {
+//  z-index: 1;
+//  $font;
+//}
+
+
